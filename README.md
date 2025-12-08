@@ -1,2 +1,1 @@
-# shobuu
-a birthday project
+# sam
