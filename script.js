@@ -11,13 +11,13 @@ const captions = {
   10011: "Can’t stop looking at this one 😍",
   10012: "The day felt perfect — because of you ☀️",
   10013: "Softness lives here 🧸",
-  10014: "One of my favorites, always 📸",
-  10015: "You’re literally the main character 🎬",
+  10014: "One of my favorites, always Shobu 📸",
+  10015: "You’re literally the main character ❤️🎬",
   10016: "Just you being you — and that’s everything 🫶",
   10017: "A hug, without touching 🤍",
   10018: "I could stare at this forever 🌈",
   10019: "A memory wrapped in light ✨",
-  10020: "pookie click 💕",
+  10020: "Shobu click 💕",
   10021: "You shine without trying 🌟",
   10022: "If smiles were safe spaces 🧡",
   10023: "You don’t even know how loved you are 💗",
@@ -29,7 +29,7 @@ const captions = {
   10029: "Proof that angels exist 😇",
   10030: "Some pictures feel like hugs 🤗",
   10031: "Real ones, real smiles 😊",
-  10032: "I still remember how I felt here 🫂",
+  10032: "I still remember how I felt here ❤️‍🩹🫂",
   10033: "A small moment, a big feeling 💭",
   10034: "Cutest chaos together 😄",
   10035: "That glow is pure you 🌷",
@@ -55,10 +55,10 @@ const captions = {
   10055: "With you, everything feels right 💞",
   10056: "A smile that changes my world 🌍",
   10057: "You make ordinary moments magical ✨",
-  10058: "Closer than friends, softer than words 🌺",
+  10058: "Closer than anyone, What ever happend 🌺",
   10059: "My forever favorite picture of us 🥰",
   10060: "Through every phase, it's you 💕",
-  10061: "In a world of noise, you're my peace 🌙",
+  10061: "i missss youuuuu yrrr, you're my peace 🌙",
   10062: "With you, every moment is a memory 🤍"
 
 };
@@ -76,7 +76,7 @@ for (let num = 10002; num <= 10062; num++) {
   const img = document.createElement("img");
   img.src = `images/${num}.jpg`;
   img.alt = `Photo ${num}`;
-  img.dataset.caption = captions[num] || "A beautiful Pookie (chomu) ✨";
+  img.dataset.caption = captions[num] || "A beautiful Pookie (Shobu) ✨";
 
   const caption = document.createElement("div");
   caption.classList.add("caption");
